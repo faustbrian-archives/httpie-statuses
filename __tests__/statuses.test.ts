@@ -1,6 +1,6 @@
 import { HttpStatus } from "../src";
 
-it("should have the correct message with numerical key", () => {
+it("should get messages by status code", () => {
 	expect(HttpStatus[100]).toBe("Continue");
 	expect(HttpStatus[101]).toBe("Switching Protocols");
 	expect(HttpStatus[102]).toBe("Processing");
@@ -66,7 +66,7 @@ it("should have the correct message with numerical key", () => {
 	expect(HttpStatus[599]).toBe("Network Connect Timeout Error");
 });
 
-it("should have the correct message with string keys", () => {
+it("should get messages by identifier", () => {
 	expect(HttpStatus.ACCEPTED).toBe("Accepted");
 	expect(HttpStatus.ALREADY_REPORTED).toBe("Already Reported");
 	expect(HttpStatus.BAD_GATEWAY).toBe("Bad Gateway");

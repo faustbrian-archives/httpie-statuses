@@ -1,128 +1,129 @@
-export const HttpStatus: Record<string | number, string> = Object.freeze({
-	100: "Continue",
-	101: "Switching Protocols",
-	102: "Processing",
-	200: "OK",
-	201: "Created",
-	202: "Accepted",
-	203: "Non-authoritative Information",
-	204: "No Content",
-	205: "Reset Content",
-	206: "Partial Content",
-	207: "Multi-Status",
-	208: "Already Reported",
-	226: "IM Used",
-	300: "Multiple Choices",
-	301: "Moved Permanently",
-	302: "Found",
-	303: "See Other",
-	304: "Not Modified",
-	305: "Use Proxy",
-	307: "Temporary Redirect",
-	308: "Permanent Redirect",
-	400: "Bad Request",
-	401: "Unauthorized",
-	402: "Payment Required",
-	403: "Forbidden",
-	404: "Not Found",
-	405: "Method Not Allowed",
-	406: "Not Acceptable",
-	407: "Proxy Authentication Required",
-	408: "Request Timeout",
-	409: "Conflict",
-	410: "Gone",
-	411: "Length Required",
-	412: "Precondition Failed",
-	413: "Payload Too Large",
-	414: "Request-URI Too Long",
-	415: "Unsupported Media Type",
-	416: "Requested Range Not Satisfiable",
-	417: "Expectation Failed",
-	418: "I'm a teapot",
-	421: "Misdirected Request",
-	422: "Unprocessable Entity",
-	423: "Locked",
-	424: "Failed Dependency",
-	426: "Upgrade Required",
-	428: "Precondition Required",
-	429: "Too Many Requests",
-	431: "Request Header Fields Too Large",
-	444: "Connection Closed Without Response",
-	451: "Unavailable For Legal Reasons",
-	499: "Client Closed Request",
-	500: "Internal Server Error",
-	501: "Not Implemented",
-	502: "Bad Gateway",
-	503: "Service Unavailable",
-	504: "Gateway Timeout",
-	505: "HTTP Version Not Supported",
-	506: "Variant Also Negotiates",
-	507: "Insufficient Storage",
-	508: "Loop Detected",
-	510: "Not Extended",
-	511: "Network Authentication Required",
-	599: "Network Connect Timeout Error",
-	ACCEPTED: "Accepted",
-	ALREADY_REPORTED: "Already Reported",
-	BAD_GATEWAY: "Bad Gateway",
-	BAD_REQUEST: "Bad Request",
-	CLIENT_CLOSED_REQUEST: "Client Closed Request",
-	CONFLICT: "Conflict",
-	CONNECTION_CLOSED_WITHOUT_RESPONSE: "Connection Closed Without Response",
-	CONTINUE: "Continue",
-	CREATED: "Created",
-	EXPECTATION_FAILED: "Expectation Failed",
-	FAILED_DEPENDENCY: "Failed Dependency",
-	FORBIDDEN: "Forbidden",
-	FOUND: "Found",
-	GATEWAY_TIMEOUT: "Gateway Timeout",
-	GONE: "Gone",
-	HTTP_VERSION_NOT_SUPPORTED: "HTTP Version Not Supported",
-	IM_A_TEAPOT: "I'm a teapot",
-	IM_USED: "IM Used",
-	INSUFFICIENT_STORAGE: "Insufficient Storage",
-	INTERNAL_SERVER_ERROR: "Internal Server Error",
-	LENGTH_REQUIRED: "Length Required",
-	LOCKED: "Locked",
-	LOOP_DETECTED: "Loop Detected",
-	METHOD_NOT_ALLOWED: "Method Not Allowed",
-	MISDIRECTED_REQUEST: "Misdirected Request",
-	MOVED_PERMANENTLY: "Moved Permanently",
-	MULTIPLE_CHOICES: "Multiple Choices",
-	MULTI_STATUS: "Multi-Status",
-	NETWORK_AUTHENTICATION_REQUIRED: "Network Authentication Required",
-	NETWORK_CONNECT_TIMEOUT_ERROR: "Network Connect Timeout Error",
-	NON_AUTHORITATIVE_INFORMATION: "Non-authoritative Information",
-	NOT_ACCEPTABLE: "Not Acceptable",
-	NOT_EXTENDED: "Not Extended",
-	NOT_FOUND: "Not Found",
-	NOT_IMPLEMENTED: "Not Implemented",
-	NOT_MODIFIED: "Not Modified",
-	NO_CONTENT: "No Content",
-	OK: "OK",
-	PARTIAL_CONTENT: "Partial Content",
-	PAYLOAD_TOO_LARGE: "Payload Too Large",
-	PAYMENT_REQUIRED: "Payment Required",
-	PERMANENT_REDIRECT: "Permanent Redirect",
-	PRECONDITION_FAILED: "Precondition Failed",
-	PRECONDITION_REQUIRED: "Precondition Required",
-	PROCESSING: "Processing",
-	PROXY_AUTHENTICATION_REQUIRED: "Proxy Authentication Required",
-	REQUESTED_RANGE_NOT_SATISFIABLE: "Requested Range Not Satisfiable",
-	REQUEST_HEADER_FIELDS_TOO_LARGE: "Request Header Fields Too Large",
-	REQUEST_TIMEOUT: "Request Timeout",
-	REQUEST_URI_TOO_LONG: "Request-URI Too Long",
-	RESET_CONTENT: "Reset Content",
-	SEE_OTHER: "See Other",
-	SERVICE_UNAVAILABLE: "Service Unavailable",
-	SWITCHING_PROTOCOLS: "Switching Protocols",
-	TEMPORARY_REDIRECT: "Temporary Redirect",
-	TOO_MANY_REQUESTS: "Too Many Requests",
-	UNAUTHORIZED: "Unauthorized",
-	UNAVAILABLE_FOR_LEGAL_REASONS: "Unavailable For Legal Reasons",
-	UNPROCESSABLE_ENTITY: "Unprocessable Entity",
-	UNSUPPORTED_MEDIA_TYPE: "Unsupported Media Type",
-	UPGRADE_REQUIRED: "Upgrade Required",
-	USE_PROXY: "Use Proxy",
-	VARIANT_ALSO_NEGOTIATES: "Variant Also Negotiates",
-});
+export class HttpStatus {
+	public static readonly 100: string = "Continue";
+	public static readonly 101: string = "Switching Protocols";
+	public static readonly 102: string = "Processing";
+	public static readonly 200: string = "OK";
+	public static readonly 201: string = "Created";
+	public static readonly 202: string = "Accepted";
+	public static readonly 203: string = "Non-authoritative Information";
+	public static readonly 204: string = "No Content";
+	public static readonly 205: string = "Reset Content";
+	public static readonly 206: string = "Partial Content";
+	public static readonly 207: string = "Multi-Status";
+	public static readonly 208: string = "Already Reported";
+	public static readonly 226: string = "IM Used";
+	public static readonly 300: string = "Multiple Choices";
+	public static readonly 301: string = "Moved Permanently";
+	public static readonly 302: string = "Found";
+	public static readonly 303: string = "See Other";
+	public static readonly 304: string = "Not Modified";
+	public static readonly 305: string = "Use Proxy";
+	public static readonly 307: string = "Temporary Redirect";
+	public static readonly 308: string = "Permanent Redirect";
+	public static readonly 400: string = "Bad Request";
+	public static readonly 401: string = "Unauthorized";
+	public static readonly 402: string = "Payment Required";
+	public static readonly 403: string = "Forbidden";
+	public static readonly 404: string = "Not Found";
+	public static readonly 405: string = "Method Not Allowed";
+	public static readonly 406: string = "Not Acceptable";
+	public static readonly 407: string = "Proxy Authentication Required";
+	public static readonly 408: string = "Request Timeout";
+	public static readonly 409: string = "Conflict";
+	public static readonly 410: string = "Gone";
+	public static readonly 411: string = "Length Required";
+	public static readonly 412: string = "Precondition Failed";
+	public static readonly 413: string = "Payload Too Large";
+	public static readonly 414: string = "Request-URI Too Long";
+	public static readonly 415: string = "Unsupported Media Type";
+	public static readonly 416: string = "Requested Range Not Satisfiable";
+	public static readonly 417: string = "Expectation Failed";
+	public static readonly 418: string = "I'm a teapot";
+	public static readonly 421: string = "Misdirected Request";
+	public static readonly 422: string = "Unprocessable Entity";
+	public static readonly 423: string = "Locked";
+	public static readonly 424: string = "Failed Dependency";
+	public static readonly 426: string = "Upgrade Required";
+	public static readonly 428: string = "Precondition Required";
+	public static readonly 429: string = "Too Many Requests";
+	public static readonly 431: string = "Request Header Fields Too Large";
+	public static readonly 444: string = "Connection Closed Without Response";
+	public static readonly 451: string = "Unavailable For Legal Reasons";
+	public static readonly 499: string = "Client Closed Request";
+	public static readonly 500: string = "Internal Server Error";
+	public static readonly 501: string = "Not Implemented";
+	public static readonly 502: string = "Bad Gateway";
+	public static readonly 503: string = "Service Unavailable";
+	public static readonly 504: string = "Gateway Timeout";
+	public static readonly 505: string = "HTTP Version Not Supported";
+	public static readonly 506: string = "Variant Also Negotiates";
+	public static readonly 507: string = "Insufficient Storage";
+	public static readonly 508: string = "Loop Detected";
+	public static readonly 510: string = "Not Extended";
+	public static readonly 511: string = "Network Authentication Required";
+	public static readonly 599: string = "Network Connect Timeout Error";
+
+	public static readonly CONTINUE: string = "Continue";
+	public static readonly SWITCHING_PROTOCOLS: string = "Switching Protocols";
+	public static readonly PROCESSING: string = "Processing";
+	public static readonly OK: string = "OK";
+	public static readonly CREATED: string = "Created";
+	public static readonly ACCEPTED: string = "Accepted";
+	public static readonly NON_AUTHORITATIVE_INFORMATION: string = "Non-authoritative Information";
+	public static readonly NO_CONTENT: string = "No Content";
+	public static readonly RESET_CONTENT: string = "Reset Content";
+	public static readonly PARTIAL_CONTENT: string = "Partial Content";
+	public static readonly MULTI_STATUS: string = "Multi-Status";
+	public static readonly ALREADY_REPORTED: string = "Already Reported";
+	public static readonly IM_USED: string = "IM Used";
+	public static readonly MULTIPLE_CHOICES: string = "Multiple Choices";
+	public static readonly MOVED_PERMANENTLY: string = "Moved Permanently";
+	public static readonly FOUND: string = "Found";
+	public static readonly SEE_OTHER: string = "See Other";
+	public static readonly NOT_MODIFIED: string = "Not Modified";
+	public static readonly USE_PROXY: string = "Use Proxy";
+	public static readonly TEMPORARY_REDIRECT: string = "Temporary Redirect";
+	public static readonly PERMANENT_REDIRECT: string = "Permanent Redirect";
+	public static readonly BAD_REQUEST: string = "Bad Request";
+	public static readonly UNAUTHORIZED: string = "Unauthorized";
+	public static readonly PAYMENT_REQUIRED: string = "Payment Required";
+	public static readonly FORBIDDEN: string = "Forbidden";
+	public static readonly NOT_FOUND: string = "Not Found";
+	public static readonly METHOD_NOT_ALLOWED: string = "Method Not Allowed";
+	public static readonly NOT_ACCEPTABLE: string = "Not Acceptable";
+	public static readonly PROXY_AUTHENTICATION_REQUIRED: string = "Proxy Authentication Required";
+	public static readonly REQUEST_TIMEOUT: string = "Request Timeout";
+	public static readonly CONFLICT: string = "Conflict";
+	public static readonly GONE: string = "Gone";
+	public static readonly LENGTH_REQUIRED: string = "Length Required";
+	public static readonly PRECONDITION_FAILED: string = "Precondition Failed";
+	public static readonly PAYLOAD_TOO_LARGE: string = "Payload Too Large";
+	public static readonly REQUEST_URI_TOO_LONG: string = "Request-URI Too Long";
+	public static readonly UNSUPPORTED_MEDIA_TYPE: string = "Unsupported Media Type";
+	public static readonly REQUESTED_RANGE_NOT_SATISFIABLE: string = "Requested Range Not Satisfiable";
+	public static readonly EXPECTATION_FAILED: string = "Expectation Failed";
+	public static readonly IM_A_TEAPOT: string = "I'm a teapot";
+	public static readonly MISDIRECTED_REQUEST: string = "Misdirected Request";
+	public static readonly UNPROCESSABLE_ENTITY: string = "Unprocessable Entity";
+	public static readonly LOCKED: string = "Locked";
+	public static readonly FAILED_DEPENDENCY: string = "Failed Dependency";
+	public static readonly UPGRADE_REQUIRED: string = "Upgrade Required";
+	public static readonly PRECONDITION_REQUIRED: string = "Precondition Required";
+	public static readonly TOO_MANY_REQUESTS: string = "Too Many Requests";
+	public static readonly REQUEST_HEADER_FIELDS_TOO_LARGE: string = "Request Header Fields Too Large";
+	public static readonly CONNECTION_CLOSED_WITHOUT_RESPONSE: string = "Connection Closed Without Response";
+	public static readonly UNAVAILABLE_FOR_LEGAL_REASONS: string = "Unavailable For Legal Reasons";
+	public static readonly CLIENT_CLOSED_REQUEST: string = "Client Closed Request";
+	public static readonly INTERNAL_SERVER_ERROR: string = "Internal Server Error";
+	public static readonly NOT_IMPLEMENTED: string = "Not Implemented";
+	public static readonly BAD_GATEWAY: string = "Bad Gateway";
+	public static readonly SERVICE_UNAVAILABLE: string = "Service Unavailable";
+	public static readonly GATEWAY_TIMEOUT: string = "Gateway Timeout";
+	public static readonly HTTP_VERSION_NOT_SUPPORTED: string = "HTTP Version Not Supported";
+	public static readonly VARIANT_ALSO_NEGOTIATES: string = "Variant Also Negotiates";
+	public static readonly INSUFFICIENT_STORAGE: string = "Insufficient Storage";
+	public static readonly LOOP_DETECTED: string = "Loop Detected";
+	public static readonly NOT_EXTENDED: string = "Not Extended";
+	public static readonly NETWORK_AUTHENTICATION_REQUIRED: string = "Network Authentication Required";
+	public static readonly NETWORK_CONNECT_TIMEOUT_ERROR: string = "Network Connect Timeout Error";
+}
