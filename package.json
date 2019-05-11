@@ -1,14 +1,14 @@
 {
-	"name": "@faustbrian/http-statuses",
+	"name": "@httpack/statuses",
 	"version": "0.1.0",
 	"description": "HTTP Status Codes from various RFCs.",
-	"homepage": "https://github.com/faustbrian/http-statuses",
+	"homepage": "https://github.com/httpack/statuses",
 	"bugs": {
-		"url": "https://github.com/faustbrian/http-statuses/issues"
+		"url": "https://github.com/httpack/statuses/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git@github.com:faustbrian/http-statuses.git"
+		"url": "git@github.com:httpack/statuses.git"
 	},
 	"license": "MIT",
 	"author": "Brian Faust <hello@basecode.sh>",

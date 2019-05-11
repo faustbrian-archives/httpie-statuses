@@ -1,17 +1,17 @@
-# http-statuses
+# @httpack/statuses
 
 > HTTP Status Codes from various RFCs.
 
-[![Latest Version](https://badgen.now.sh/npm/v/@faustbrian/http-statuses)](https://www.npmjs.com/package/@faustbrian/http-statuses)
-[![Node Engine](https://badgen.now.sh/npm/node/@faustbrian/http-statuses)](https://www.npmjs.com/package/@faustbrian/http-statuses)
-[![Build Status](https://badgen.now.sh/circleci/github/faustbrian/http-statuses)](https://circleci.com/gh/faustbrian/http-statuses)
-[![Codecov](https://badgen.now.sh/codecov/c/github/faustbrian/http-statuses)](https://codecov.io/gh/faustbrian/http-statuses)
+[![Latest Version](https://badgen.now.sh/npm/v/@httpack/statuses)](https://www.npmjs.com/package/@httpack/statuses)
+[![Node Engine](https://badgen.now.sh/npm/node/@httpack/statuses)](https://www.npmjs.com/package/@httpack/statuses)
+[![Build Status](https://badgen.now.sh/circleci/github/@httpack/statuses)](https://circleci.com/gh/@httpack/statuses)
+[![Codecov](https://badgen.now.sh/codecov/c/github/@httpack/statuses)](https://codecov.io/gh/@httpack/statuses)
 [![License: MIT](https://badgen.now.sh/badge/license/MIT/green)](https://opensource.org/licenses/MIT)
 
 ## Installation
 
 ```bash
-yarn add @faustbrian/http-statuses
+yarn add @httpack/statuses
 ```
 
 ## Testing
